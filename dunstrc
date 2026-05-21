@@ -1,0 +1,80 @@
+#|--------------| |-------------------|
+#|Made By NeyoKa| |World Machine Theme|
+#|--------------| |-------------------|
+
+# Also i was inspired by this repository. just because I'm a complete noob with CSS. so u may count this as special thanks.
+# https://github.com/pdn6606/TWM-xfce
+# My WayBar also made with this css examples
+
+[global]
+    # WayLand (Tested on Hyprland)
+    force_xwayland = false
+    layer = overlay
+
+    # If u want to change something read the documentation
+    # https://dunst-project.org/documentation/#Global-section
+
+    origin = top-right
+    offset = (15, 15)
+    width = 320
+    height = (0, 200)
+    gap_size = 6
+    corner_radius = 0
+    frame_width = 3
+    frame_color = "#9666ff"
+    separator_color = "#9666ff"
+    separator_height = 2
+    icon_path = THEME_DIR/Icons/:/usr/share/icons/hicolor/48x48/apps/:/usr/share/pixmaps/
+    enable_recursive_icon_lookup = true
+    font = Volter (Goldfish) 10, Terminus 10
+    background = "#000000"
+    foreground = "#9666ff"
+    padding = 10
+    horizontal_padding = 12
+    text_icon_padding = 10
+    min_icon_size = 36
+    max_icon_size = 36
+    timeout = 5
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#5a3d99"
+    frame_color = "#5a3d99"
+    timeout = 3
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#9666ff"
+    frame_color = "#9666ff"
+    timeout = 5
+
+[urgency_critical]
+    background = "#000000"
+    foreground = "#ff6b6b"
+    frame_color = "#ed1919"
+    timeout = 0
+
+[spotify]
+    appname = Spotify
+    foreground = "#c9a8ff"
+    frame_color = "#c9a8ff"
+    timeout = 4
+
+[telegram]
+    appname = Telegram Desktop
+    foreground = "#9666ff"
+    frame_color = "#9666ff"
+    # if u are looking for sound script. just change it in app vro.
+
+[battery_warn]
+    summary = "*attery*"
+    foreground = "#ffc224"
+    frame_color = "#ffc224"
+
+[default_icon]
+    summary = "*"
+    new_icon = THEME_DIR/Icons/Lamp.png
+    script = "THEME_DIR/Scripts/notify-sound.sh"
+    # i don't really know about notify sound duplicating but you always may remove this thing above :3
+# Niko actually a cat
+# You are using conf with this opinion now. count this as Terms or whatever
