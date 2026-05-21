@@ -9,6 +9,8 @@ Black backgrounds, purple borders, pixel fonts — no rounded corners, no compro
 
 ---
 
+Actually tested on Arch + Hyprland.
+
 ## Features
 
 -Purple `#9666ff` color scheme matching the OneShot TWM palette
